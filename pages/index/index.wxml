@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <button bindtap="getUserInfo">GET</button>
+  <index-child />
+  <index-child2 />
+  <!-- <van-button type="primary" size="small">小型按钮</van-button> -->
+  <van-skeleton title row="3" />
+</view>
+
+<text class="iconfont iconxihongshiSVG"></text>
+
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">phone</button>
+
+<van-button type="primary">主要按钮</van-button>

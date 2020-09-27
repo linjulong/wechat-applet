@@ -1,0 +1,7 @@
+<view class="header">
+  <van-image round width="100rpx" height="100rpx" src="{{userInfo.avatarUrl||'/assets/images/noAvatar.png'}}" fit="cover" />
+  <button class='auth-button' hidden="{{userInfo.nickName}}" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+    立即登录
+  </button>
+  <view class="nickName" hidden="{{!userInfo.nickName}}">{{userInfo.nickName}}</view>
+</view>

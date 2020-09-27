@@ -1,0 +1,17 @@
+{
+  "name": "linjulong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.2.0",
+    "await-to-js": "^2.1.1",
+    "miniprogram-api-promise": "^1.0.4"
+  }
+}

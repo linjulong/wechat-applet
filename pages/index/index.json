@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "index-child": "./components/IndexChild/index",
+    "index-child2": "./components/IndexChild2/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-skeleton": "@vant/weapp/skeleton/index"
+  }
+}

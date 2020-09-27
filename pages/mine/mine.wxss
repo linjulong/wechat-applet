@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 30rpx;
+}
+
+button::after {
+  border: none;
+}
+
+button:hover {
+  background-color: none;
+}
+
+.button-hover {
+  background-color: transparent;
+}
+
+button {
+  border-radius: 0;
+  border: 0;
+  font-size: 30rpx;
+  font-weight: bold;
+  line-height: normal;
+  color: white;
+  text-decoration: underline;
+  background-color: transparent;
+  padding: 20rpx;
+}
+
+.nickName {
+  padding: 20rpx;
+}
