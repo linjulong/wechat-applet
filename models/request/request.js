@@ -44,7 +44,7 @@ class RequestModel {
     }, async error => {
       codeAction(error.status);
       wx.hideNavigationBarLoading()
-      return error;
+      return Promise.reject(error.response)
     })
   }
 
